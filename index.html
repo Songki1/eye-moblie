@@ -272,8 +272,6 @@ button:disabled .tap-img { opacity: 0.55; }   /* 음성 중엔 흐리게, 끝나
         type: jsPsychHtmlButtonResponse,
         stimulus: `<p>이제 본 실험을 시작합니다.</p>
                    <p>음성을 듣고 왼쪽과 오른쪽 이미지 중 하나를 선택하세요.</p>
-                   <p><strong>왼쪽</strong>이 정답이면 <strong>Q</strong> 키를</p>
-                   <p><strong>오른쪽</strong>이 정답이면 <strong>P</strong> 키를 눌러주세요.</p>
                    <p>음성이 끝난 후에 키를 눌러주세요.</p>`,
         choices: ['시작하기']
     }
@@ -338,9 +336,8 @@ button:disabled .tap-img { opacity: 0.55; }   /* 음성 중엔 흐리게, 끝나
     // ========== 실험 종료 ==========
     var experiment_end = {
         type: jsPsychHtmlButtonResponse,
-           stimulus: `<p>이제 본 실험을 시작합니다.</p>
-           <p>음성을 듣고 정답이라고 생각하는 그림을 <strong>직접 눌러(탭해)</strong>주세요.</p>
-           <p>음성이 끝난 뒤에 눌러주세요.</p>`,
+           stimulus: `<p>실험이 종료되었습니다.</p>
+           <p>고생많으셨습니다. <strong>다운로드</strong>해 주세요. 감사합니다.</p>
         choices: ['데이터 다운로드 및 종료']
     }
 
